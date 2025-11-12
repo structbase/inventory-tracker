@@ -1,6 +1,6 @@
 import { Product } from "./Product.js";
 
-export default class PhysicalProduct extends Product {
+export class PhysicalProduct extends Product {
     weight: number;
 
     constructor(sku: string, name: string, price: number, weight: number) {

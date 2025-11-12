@@ -1,1 +1,0 @@
-import { Product } from "./src/Product.js";
